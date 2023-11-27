@@ -1,0 +1,204 @@
+UseCaseModel MedicalRobot {
+
+	UC::regist include authorize definedBySSD(RegistSSD) relatedService(RegistService)
+	UC::login definedBySSD(LoginSSD) relatedService(LoginService)
+	UC::editUser include authorize definedBySSD(EditUserSSD) relatedService(EditUserService)
+	UC::deleteUser include authorize definedBySSD(DeleteUserSSD) relatedService(DeleteUserService)
+	UC::authorize
+
+	Actor Patient {
+		regist
+		login
+	}
+
+	Actor Admin {
+		editUser
+		deleteUser
+	}
+
+	Interaction RegistSSD {
+
+		[Participants: Patient RegistService]
+
+		CallMessage::RegistSSDCallMessage1(regist RegistSSDCallMessage1SendingEnd -> RegistSSDExecution1StartEnd)
+		ReturnMessage::RegistSSDCallMessage1Return(RegistSSDExecution1FinishEnd -> RegistSSDCallMessage1ReturnReceivingEnd RegistSSDCallMessage1)
+
+		Execution::RegistSSDExecution1(RegistService RegistSSDExecution1StartEnd RegistSSDExecution1FinishEnd)
+
+		MessageEnd::RegistSSDCallMessage1SendingEnd(Patient RegistSSDCallMessage1)
+		ExecutionEnd::RegistSSDExecution1StartEnd(RegistService RegistSSDExecution1)
+		ExecutionEnd::RegistSSDExecution1FinishEnd(RegistService RegistSSDExecution1)
+		MessageEnd::RegistSSDCallMessage1ReturnReceivingEnd(Patient RegistSSDCallMessage1Return)
+
+	}
+
+	Interaction EditUserSSD {
+
+		[Participants: Admin EditUserService]
+
+		CallMessage::EditUserSSDCallMessage1(editUser EditUserSSDCallMessage1SendingEnd -> EditUserSSDExecution1StartEnd)
+		ReturnMessage::EditUserSSDCallMessage1Return(EditUserSSDExecution1FinishEnd -> EditUserSSDCallMessage1ReturnReceivingEnd EditUserSSDCallMessage1)
+
+		Execution::EditUserSSDExecution1(EditUserService EditUserSSDExecution1StartEnd EditUserSSDExecution1FinishEnd)
+
+		MessageEnd::EditUserSSDCallMessage1SendingEnd(Admin EditUserSSDCallMessage1)
+		ExecutionEnd::EditUserSSDExecution1StartEnd(EditUserService EditUserSSDExecution1)
+		ExecutionEnd::EditUserSSDExecution1FinishEnd(EditUserService EditUserSSDExecution1)
+		MessageEnd::EditUserSSDCallMessage1ReturnReceivingEnd(Admin EditUserSSDCallMessage1Return)
+
+	}
+
+	Interaction LoginSSD {
+
+		[Participants: Patient LoginService]
+
+		CallMessage::LoginSSDCallMessage1(login LoginSSDCallMessage1SendingEnd -> LoginSSDExecution1StartEnd)
+		ReturnMessage::LoginSSDCallMessage1Return(LoginSSDExecution1FinishEnd -> LoginSSDCallMessage1ReturnReceivingEnd LoginSSDCallMessage1)
+
+		Execution::LoginSSDExecution1(LoginService LoginSSDExecution1StartEnd LoginSSDExecution1FinishEnd)
+
+		MessageEnd::LoginSSDCallMessage1SendingEnd(Patient LoginSSDCallMessage1)
+		ExecutionEnd::LoginSSDExecution1StartEnd(LoginService LoginSSDExecution1)
+		ExecutionEnd::LoginSSDExecution1FinishEnd(LoginService LoginSSDExecution1)
+		MessageEnd::LoginSSDCallMessage1ReturnReceivingEnd(Patient LoginSSDCallMessage1Return)
+
+	}
+
+	Interaction DeleteUserSSD {
+
+		[Participants: Admin DeleteUserService]
+
+		CallMessage::DeleteUserSSDCallMessage1(deleteUser DeleteUserSSDCallMessage1SendingEnd -> DeleteUserSSDExecution1StartEnd)
+		ReturnMessage::DeleteUserSSDCallMessage1Return(DeleteUserSSDExecution1FinishEnd -> DeleteUserSSDCallMessage1ReturnReceivingEnd DeleteUserSSDCallMessage1)
+
+		Execution::DeleteUserSSDExecution1(DeleteUserService DeleteUserSSDExecution1StartEnd DeleteUserSSDExecution1FinishEnd)
+
+		MessageEnd::DeleteUserSSDCallMessage1SendingEnd(Admin DeleteUserSSDCallMessage1)
+		ExecutionEnd::DeleteUserSSDExecution1StartEnd(DeleteUserService DeleteUserSSDExecution1)
+		ExecutionEnd::DeleteUserSSDExecution1FinishEnd(DeleteUserService DeleteUserSSDExecution1)
+		MessageEnd::DeleteUserSSDCallMessage1ReturnReceivingEnd(Admin DeleteUserSSDCallMessage1Return)
+
+	}
+
+	Service MedicalRobotSystem {
+
+	}
+
+	Service ThirdPartyServices {
+
+	}
+
+	Service RegistService {
+
+		[Operation]
+		regist(username, password)
+
+	}
+
+	Service EditUserService {
+
+		[Operation]
+		editUser(id, username, password)
+
+	}
+
+	Service LoginService {
+
+		[Operation]
+		login(username, password)
+
+	}
+
+	Service DeleteUserService {
+
+		[Operation]
+		deleteUser(id)
+
+	}
+
+	Contract LoginService::login(username : String, password : String) : User {
+
+		definition:
+			u:User = User.allInstance()->any(user:User | user.Name = username and user.Password=password)
+
+		precondition:
+			u.oclIsUndefined() = false
+		postcondition:
+			result = u
+	}
+
+	Contract DeleteUserService::deleteUser(id : String) : Boolean {
+
+		definition:
+			u:User = User.allInstance()->any(user:User | user.Id = id)
+
+		precondition:
+			u.oclIsUndefined() = false
+		postcondition:
+			User.allInstance()->excludes(u) and
+			result = true
+
+	}
+
+	Contract EditUserService::editUser(id : String, username : String, password : String) : Boolean {
+
+		definition:
+			u:User = User.allInstance()->any(user:User | user.Name = username and user.Password=password)
+
+		precondition:
+			u.oclIsUndefined() = false
+		postcondition:
+			User.allInstance()->excludes(u) and
+			result = true
+
+	}
+
+	Contract RegistService::regist(username : String, password : String) : User {
+
+		definition:
+			u:User = User.allInstance()->any(user:User | user.Name = username and user.Password=password)
+
+		precondition:
+			u.oclIsUndefined() = true
+		postcondition:
+			let un:User in
+			un.oclIsNew() and
+			un.Name = username and
+			un.Password = password and
+			User.allInstance()->includes(un) and
+			result = u
+	}
+
+}
+
+DomainModel MedicalRobot {
+
+	Entity User {
+		Id : Integer
+		Name : String
+		Password : String
+
+		[Refer]
+		UsertoChat : Chat Association
+	}
+
+	Entity Chat {
+		Id : Integer
+
+		[Refer]
+		ChattoMessage : Message Association
+		ChattoUser : User* ! Association
+	}
+
+	Entity Message {
+		Id : Integer
+		ChatId : String
+		Content : String
+		MessageType : MessageType[USER|BOT]
+
+		[Refer]
+		MessagetoChat : Chat* ! Aggregation
+	}
+
+}
+
