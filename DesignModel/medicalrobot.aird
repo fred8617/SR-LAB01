@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:designModel="http://www.example.org/designModel" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_f5FWsJJ-Ee65WYtEnaCWuQ" selectedViews="_f7rXsJJ-Ee65WYtEnaCWuQ _f71vwJJ-Ee65WYtEnaCWuQ _f78dcJJ-Ee65WYtEnaCWuQ" version="14.5.1.202106111100">
+    <semanticResources>medicalrobot.xmi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f7rXsJJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/designmodel.sequencediagram.design/description/sequencediagram.odesign#//@ownedViewpoints[name='sequencediagram']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f71vwJJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/SR-LAB02/org.rm2pt.chatbot.design/description/chatbot.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f72W0JJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/dsl/dsl.design/description/dsl.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f77PUJJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/dsl.design/description/dsl.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f78dcJJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_f9G7EJJ-Ee65WYtEnaCWuQ" name="medicalrobot Class Diagram" repPath="#_f9DQsJJ-Ee65WYtEnaCWuQ" changeId="f533d6b8-7b89-4089-bda6-67bff7fce185">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']"/>
+        <target xmi:type="designModel:ClassDiagram" href="medicalrobot.xmi#/1/@classdiagram"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_f8CkEJJ-Ee65WYtEnaCWuQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_f9DQsJJ-Ee65WYtEnaCWuQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_f9NowJJ-Ee65WYtEnaCWuQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_f9NowZJ-Ee65WYtEnaCWuQ" type="Sirius" element="_f9DQsJJ-Ee65WYtEnaCWuQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_f-PjgJJ-Ee65WYtEnaCWuQ" type="2002" element="_f9hKwJJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-Sm0JJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-TN4JJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-YGYJJ-Ee65WYtEnaCWuQ" type="3009" element="_f9mDQJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-YGY5J-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-YtcJJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-ZUhZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9n4cJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-ZUhpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-ZUh5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-Z7kJJ-Ee65WYtEnaCWuQ" type="3010" element="_f9pGkZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-Z7kZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-Z7kpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-Z7k5J-Ee65WYtEnaCWuQ" type="3010" element="_f9pGk5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-Z7lJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-Z7lZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-YtcZJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-YtcpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-Ytc5J-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-YGYZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-YGYpJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_f-YtdJJ-Ee65WYtEnaCWuQ" type="3009" element="_f9qUsJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-ZUgJJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-ZUgZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-Z7lpJ-Ee65WYtEnaCWuQ" type="3010" element="_f9q7wpJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-Z7l5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-Z7mJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-aioJJ-Ee65WYtEnaCWuQ" type="3010" element="_f9tYAZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-aioZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-aiopJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-aio5J-Ee65WYtEnaCWuQ" type="3010" element="_f9t_EZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-aipJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-aipZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-aippJ-Ee65WYtEnaCWuQ" type="3010" element="_f9t_E5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-aip5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-aiqJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-bJsJJ-Ee65WYtEnaCWuQ" type="3010" element="_f9umIZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-bJsZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-bJspJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-bJs5J-Ee65WYtEnaCWuQ" type="3010" element="_f9umI5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-bJtJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-bJtZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-bJtpJ-Ee65WYtEnaCWuQ" type="3010" element="_f9vNMZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-bJt5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-bJuJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-bJuZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9vNM5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-bJupJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-bJu5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-ZUgpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-ZUg5J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-ZUhJJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-YtdZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-YtdpJ-Ee65WYtEnaCWuQ" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-TN4ZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-TN4pJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-PjgZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-PjgpJ-Ee65WYtEnaCWuQ" x="364" y="404"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-TN45J-Ee65WYtEnaCWuQ" type="2002" element="_f9i_8JJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-T08JJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-T08ZJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-bwwJJ-Ee65WYtEnaCWuQ" type="3009" element="_f9v0QZJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-bww5J-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-bwxJJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-cX1ZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9wbUJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-cX1pJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-cX15J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-bwxZJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-bwxpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-bwx5J-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-bwwZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-bwwpJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_f-bwyJJ-Ee65WYtEnaCWuQ" type="3009" element="_f9wbUpJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-cX0JJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-cX0ZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-cX2JJ-Ee65WYtEnaCWuQ" type="3010" element="_f9xCYZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-cX2ZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-cX2pJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-c-4JJ-Ee65WYtEnaCWuQ" type="3010" element="_f9xpcJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-c-4ZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-c-4pJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-c-45J-Ee65WYtEnaCWuQ" type="3010" element="_f9xpcpJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-c-5JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-c-5ZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-dl8JJ-Ee65WYtEnaCWuQ" type="3010" element="_f9yQgZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-dl8ZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-dl8pJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-cX0pJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-cX05J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-cX1JJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-bwyZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-bwypJ-Ee65WYtEnaCWuQ" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-T08pJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-T085J-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-TN5JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-TN5ZJ-Ee65WYtEnaCWuQ" x="488" y="232"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-T09JJ-Ee65WYtEnaCWuQ" type="2002" element="_f9i_85J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-T095J-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-T0-JJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-dl85J-Ee65WYtEnaCWuQ" type="3009" element="_f9y3kJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-eNAJJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-eNAZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-e0FZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9y3lJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-e0FpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-e0F5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-e0GJJ-Ee65WYtEnaCWuQ" type="3010" element="_f9zeoZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-e0GZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-e0GpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-e0G5J-Ee65WYtEnaCWuQ" type="3010" element="_f9zeo5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-e0HJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-e0HZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-fbIJJ-Ee65WYtEnaCWuQ" type="3010" element="_f90FsZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-fbIZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-fbIpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-eNApJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-eNA5J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-eNBJJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-dl9JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-dl9ZJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_f-eNBZJ-Ee65WYtEnaCWuQ" type="3009" element="_f90swZJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-e0EJJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-e0EZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-fbI5J-Ee65WYtEnaCWuQ" type="3010" element="_f91T0JJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-fbJJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-fbJZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-fbJpJ-Ee65WYtEnaCWuQ" type="3010" element="_f91T0pJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-fbJ5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-fbKJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-fbKZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9164ZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-fbKpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-fbK5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gCMJJ-Ee65WYtEnaCWuQ" type="3010" element="_f91645J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gCMZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gCMpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gCM5J-Ee65WYtEnaCWuQ" type="3010" element="_f92h8ZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gCNJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gCNZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gCNpJ-Ee65WYtEnaCWuQ" type="3010" element="_f93JAJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gCN5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gCOJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gCOZJ-Ee65WYtEnaCWuQ" type="3010" element="_f93JApJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gCOpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gCO5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gpQJJ-Ee65WYtEnaCWuQ" type="3010" element="_f93JBJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gpQZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gpQpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gpQ5J-Ee65WYtEnaCWuQ" type="3010" element="_f93wEZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gpRJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gpRZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-gpRpJ-Ee65WYtEnaCWuQ" type="3010" element="_f93wE5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-gpR5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-gpSJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-e0EpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-e0E5J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-e0FJJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-eNBpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-eNB5J-Ee65WYtEnaCWuQ" y="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-T0-ZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-T0-pJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-T09ZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-T09pJ-Ee65WYtEnaCWuQ" x="688"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-T0-5J-Ee65WYtEnaCWuQ" type="2002" element="_f9jnAZJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-UcAJJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-UcAZJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-gpSZJ-Ee65WYtEnaCWuQ" type="3009" element="_f94XIJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-hQUJJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-hQUZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-hQVZJ-Ee65WYtEnaCWuQ" type="3010" element="_f94XJJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-hQVpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-hQV5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-hQWJJ-Ee65WYtEnaCWuQ" type="3010" element="_f94-MZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-hQWZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-hQWpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-hQW5J-Ee65WYtEnaCWuQ" type="3010" element="_f94-M5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-hQXJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-hQXZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-h3YJJ-Ee65WYtEnaCWuQ" type="3010" element="_f95lQJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-h3YZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-h3YpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-h3Y5J-Ee65WYtEnaCWuQ" type="3010" element="_f95lQpJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-h3ZJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-h3ZZJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-h3ZpJ-Ee65WYtEnaCWuQ" type="3010" element="_f95lRJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-h3Z5J-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-h3aJJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_f-h3aZJ-Ee65WYtEnaCWuQ" type="3010" element="_f96MUZJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-h3apJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-h3a5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-hQUpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-hQU5J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-hQVJJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-gpSpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-gpS5J-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-UcApJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-UcA5J-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-T0_JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-T0_ZJ-Ee65WYtEnaCWuQ" x="552" y="616"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-UcBJJ-Ee65WYtEnaCWuQ" type="2002" element="_f9jnBJJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-UcB5J-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-UcCJJ-Ee65WYtEnaCWuQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-UcCZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-UcCpJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-UcBZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-UcBpJ-Ee65WYtEnaCWuQ" x="464" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-UcC5J-Ee65WYtEnaCWuQ" type="2002" element="_f9kOEJJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-VDEJJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-VDEZJ-Ee65WYtEnaCWuQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-VDEpJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-VDE5J-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-UcDJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-UcDZJ-Ee65WYtEnaCWuQ" x="292" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-VDFJJ-Ee65WYtEnaCWuQ" type="2002" element="_f9kOE5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-VDF5J-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-VDGJJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-iecJJ-Ee65WYtEnaCWuQ" type="3009" element="_f97acJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-iec5J-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-iedJJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-ieeJJ-Ee65WYtEnaCWuQ" type="3010" element="_f97adJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-ieeZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-ieepJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-iedZJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-iedpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-ied5J-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-iecZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-iecpJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-VDGZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-VDGpJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-VDFZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-VDFpJ-Ee65WYtEnaCWuQ" x="892" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-VDG5J-Ee65WYtEnaCWuQ" type="2002" element="_f9kOFpJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-VqIJJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-VqIZJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-jFgJJ-Ee65WYtEnaCWuQ" type="3009" element="_f98okJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-jFg5J-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-jFhJJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-jFiJJ-Ee65WYtEnaCWuQ" type="3010" element="_f99PoJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-jFiZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-jFipJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-jFhZJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-jFhpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-jFh5J-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-jFgZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-jFgpJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-VqIpJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-VqI5J-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-VDHJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-VDHZJ-Ee65WYtEnaCWuQ" x="1136" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-WRMJJ-Ee65WYtEnaCWuQ" type="2002" element="_f9k1IZJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-WRM5J-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-WRNJJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-jskJJ-Ee65WYtEnaCWuQ" type="3009" element="_f99PopJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-jsk5J-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-jslJJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-jsmJJ-Ee65WYtEnaCWuQ" type="3010" element="_f992s5J-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-jsmZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-jsmpJ-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-jslZJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-jslpJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-jsl5J-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-jskZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-jskpJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-WRNZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-WRNpJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-WRMZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-WRMpJ-Ee65WYtEnaCWuQ" x="648" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-WRN5J-Ee65WYtEnaCWuQ" type="2002" element="_f9k1JJJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-WROpJ-Ee65WYtEnaCWuQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_f-W4QJJ-Ee65WYtEnaCWuQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_f-jsm5J-Ee65WYtEnaCWuQ" type="3009" element="_f9-dwJJ-Ee65WYtEnaCWuQ">
+              <children xmi:type="notation:Node" xmi:id="_f-kToJJ-Ee65WYtEnaCWuQ" visible="false" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_f-kToZJ-Ee65WYtEnaCWuQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_f-kTpZJ-Ee65WYtEnaCWuQ" type="3010" element="_f9-dxJJ-Ee65WYtEnaCWuQ">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_f-kTppJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f-kTp5J-Ee65WYtEnaCWuQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_f-kTopJ-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_f-kTo5J-Ee65WYtEnaCWuQ"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_f-kTpJJ-Ee65WYtEnaCWuQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f-jsnJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-jsnZJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-W4QZJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-W4QpJ-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-WROJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-WROZJ-Ee65WYtEnaCWuQ" x="92" y="776"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_f-W4Q5J-Ee65WYtEnaCWuQ" type="2003" element="_f9_E0JJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-XfUJJ-Ee65WYtEnaCWuQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_f-XfUZJ-Ee65WYtEnaCWuQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_f-k6sJJ-Ee65WYtEnaCWuQ" type="3010" element="_f9_r4JJ-Ee65WYtEnaCWuQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_f-k6sZJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_f-k6spJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_f-k6s5J-Ee65WYtEnaCWuQ" type="3010" element="_f9_r4pJ-Ee65WYtEnaCWuQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_f-k6tJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_f-k6tZJ-Ee65WYtEnaCWuQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f-XfUpJ-Ee65WYtEnaCWuQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f-XfU5J-Ee65WYtEnaCWuQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_f-W4RJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-W4RZJ-Ee65WYtEnaCWuQ" y="-3"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_f9NowpJ-Ee65WYtEnaCWuQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_f-mI0JJ-Ee65WYtEnaCWuQ" type="4001" element="_f-BhEJJ-Ee65WYtEnaCWuQ" source="_f-PjgJJ-Ee65WYtEnaCWuQ" target="_f-TN45J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-nW8JJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-nW8ZJ-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-n-AJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-n-AZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-n-ApJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-n-A5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-mI0ZJ-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-mI0pJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-mI05J-Ee65WYtEnaCWuQ" points="[-1, 0, -126, 60]$[124, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-uEoJJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-uEoZJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-uEopJ-Ee65WYtEnaCWuQ" type="4001" element="_f-DWQJJ-Ee65WYtEnaCWuQ" source="_f-TN45J-Ee65WYtEnaCWuQ" target="_f-T09JJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-uEppJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-uEp5J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-uEqJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-uEqZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-ursJJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-ursZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-uEo5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-uEpJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-uEpZJ-Ee65WYtEnaCWuQ" points="[-1, 0, -201, 60]$[199, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-vSwJJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-vSwZJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-vSwpJ-Ee65WYtEnaCWuQ" type="4001" element="_f-D9UJJ-Ee65WYtEnaCWuQ" source="_f-T0-5J-Ee65WYtEnaCWuQ" target="_f-PjgJJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-vSxpJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-vSx5J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-vSyJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-vSyZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-vSypJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-vSy5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-vSw5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-vSxJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-vSxZJ-Ee65WYtEnaCWuQ" points="[-1, 0, 199, 60]$[-201, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-v50JJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-v50ZJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-v50pJ-Ee65WYtEnaCWuQ" type="4001" element="_f-EkYJJ-Ee65WYtEnaCWuQ" source="_f-T0-5J-Ee65WYtEnaCWuQ" target="_f-TN45J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-v51pJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-v515J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-v52JJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-v52ZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-v52pJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-v525J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-v505J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-v51JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-v51ZJ-Ee65WYtEnaCWuQ" points="[-1, 0, 74, 271]$[-2, -211, 73, 60]$[-76, -271, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-wg4JJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-wg4ZJ-Ee65WYtEnaCWuQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-wg4pJ-Ee65WYtEnaCWuQ" type="4001" element="_f-FLdpJ-Ee65WYtEnaCWuQ" source="_f-T0-5J-Ee65WYtEnaCWuQ" target="_f-T09JJ-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-wg5pJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-wg55J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-wg6JJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-wg6ZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-xH8JJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-xH8ZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-wg45J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-wg5JJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-wg5ZJ-Ee65WYtEnaCWuQ" points="[-1, 0, -126, 442]$[123, -61, -2, 381]$[124, -442, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-xH8pJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-xH85J-Ee65WYtEnaCWuQ" id="(0.5023474178403756,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-xH9JJ-Ee65WYtEnaCWuQ" type="4001" element="_f-Fyg5J-Ee65WYtEnaCWuQ" source="_f-UcBJJ-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-xH-JJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-xH-ZJ-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-xvAJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-xvAZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-xvApJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-xvA5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-xH9ZJ-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-xH9pJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-xH95J-Ee65WYtEnaCWuQ" points="[-1, 0, -146, 60]$[144, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-xvBJJ-Ee65WYtEnaCWuQ" id="(0.5081967213114754,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-xvBZJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-xvBpJ-Ee65WYtEnaCWuQ" type="4001" element="_f-GZkJJ-Ee65WYtEnaCWuQ" source="_f-UcC5J-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-xvCpJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-xvC5J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-yWEJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-yWEZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-yWEpJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-yWE5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-xvB5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-xvCJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-xvCZJ-Ee65WYtEnaCWuQ" points="[-1, 0, -324, 60]$[322, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-yWFJJ-Ee65WYtEnaCWuQ" id="(0.509090909090909,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-yWFZJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-yWFpJ-Ee65WYtEnaCWuQ" type="4001" element="_f-HAo5J-Ee65WYtEnaCWuQ" source="_f-VDFJJ-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-y9IJJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-y9IZJ-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-y9IpJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-y9I5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-y9JJJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-y9JZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-yWF5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-yWGJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-yWGZJ-Ee65WYtEnaCWuQ" points="[-1, 0, 312, 60]$[-314, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-y9JpJ-Ee65WYtEnaCWuQ" id="(0.5054347826086957,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-y9J5J-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-y9KJJ-Ee65WYtEnaCWuQ" type="4001" element="_f-HnsJJ-Ee65WYtEnaCWuQ" source="_f-VDG5J-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-y9LJJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-y9LZJ-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-zkMJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-zkMZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-zkMpJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-zkM5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-y9KZJ-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-y9KpJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-y9K5J-Ee65WYtEnaCWuQ" points="[-1, 0, 583, 60]$[-585, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-zkNJJ-Ee65WYtEnaCWuQ" id="(0.5042735042735043,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-zkNZJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-zkNpJ-Ee65WYtEnaCWuQ" type="4001" element="_f-IOw5J-Ee65WYtEnaCWuQ" source="_f-WRMJJ-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-zkOpJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-zkO5J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-0LQJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-0LQZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-0LQpJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-0LQ5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-zkN5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-zkOJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-zkOZJ-Ee65WYtEnaCWuQ" points="[-1, 0, 67, 60]$[-69, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-0LRJJ-Ee65WYtEnaCWuQ" id="(0.5027624309392266,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-0LRZJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_f-0LRpJ-Ee65WYtEnaCWuQ" type="4001" element="_f-I10JJ-Ee65WYtEnaCWuQ" source="_f-WRN5J-Ee65WYtEnaCWuQ" target="_f-T0-5J-Ee65WYtEnaCWuQ">
+          <children xmi:type="notation:Node" xmi:id="_f-0LSpJ-Ee65WYtEnaCWuQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-0LS5J-Ee65WYtEnaCWuQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-0yUJJ-Ee65WYtEnaCWuQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-0yUZJ-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_f-0yUpJ-Ee65WYtEnaCWuQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-0yU5J-Ee65WYtEnaCWuQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_f-0LR5J-Ee65WYtEnaCWuQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_f-0LSJJ-Ee65WYtEnaCWuQ" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f-0LSZJ-Ee65WYtEnaCWuQ" points="[-1, 0, -495, 60]$[493, -60, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-0yVJJ-Ee65WYtEnaCWuQ" id="(0.5092592592592593,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f-0yVZJ-Ee65WYtEnaCWuQ" id="(0.502127659574468,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_f-Jc4JJ-Ee65WYtEnaCWuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_f-Jc4ZJ-Ee65WYtEnaCWuQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9hKwJJ-Ee65WYtEnaCWuQ" name="User" outgoingEdges="_f-BhEJJ-Ee65WYtEnaCWuQ" incomingEdges="_f-D9UJJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9hx0JJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9mDQJJ-Ee65WYtEnaCWuQ" name="User">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9nRYJJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9mDQZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9n4cJJ-Ee65WYtEnaCWuQ" name="-  Id : Integer">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.0"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9pGkJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9pGkZJ-Ee65WYtEnaCWuQ" name="-  Name : String">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.1"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9pGkpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9pGk5J-Ee65WYtEnaCWuQ" name="-  Password : String">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.2"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@attribute.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9ptoJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9qUsJJ-Ee65WYtEnaCWuQ" name="User">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9q7wZJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9qUsZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9q7wpJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToOne(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9tYAJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9tYAZJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToMany(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.1"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9t_EJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9t_EZJ-Ee65WYtEnaCWuQ" name="+  getId()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.2"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9t_EpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9t_E5J-Ee65WYtEnaCWuQ" name="+  setId(newValue:Integer)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.3"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9umIJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9umIZJ-Ee65WYtEnaCWuQ" name="+  getName()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.4"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.4"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9umIpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9umI5J-Ee65WYtEnaCWuQ" name="+  setName(newValue:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.5"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.5"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9vNMJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9vNMZJ-Ee65WYtEnaCWuQ" name="+  getPassword()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.6"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.6"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9vNMpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9vNM5J-Ee65WYtEnaCWuQ" name="+  setPassword(newValue:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.7"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@operation.7"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9v0QJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9i_8JJ-Ee65WYtEnaCWuQ" name="Chat" outgoingEdges="_f-DWQJJ-Ee65WYtEnaCWuQ" incomingEdges="_f-BhEJJ-Ee65WYtEnaCWuQ _f-EkYJJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9i_8ZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9v0QZJ-Ee65WYtEnaCWuQ" name="Chat">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9v0RJJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9v0QpJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9wbUJJ-Ee65WYtEnaCWuQ" name="-  Id : Integer">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@attribute.0"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@attribute.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9wbUZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9wbUpJ-Ee65WYtEnaCWuQ" name="Chat">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.1"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9xCYJJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9wbU5J-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9xCYZJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToOne(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9xCYpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9xpcJJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToMany(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.1"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9xpcZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9xpcpJ-Ee65WYtEnaCWuQ" name="+  getId()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.2"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9yQgJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9yQgZJ-Ee65WYtEnaCWuQ" name="+  setId(newValue:Integer)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.3"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@operation.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9yQgpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9i_85J-Ee65WYtEnaCWuQ" name="Message" incomingEdges="_f-DWQJJ-Ee65WYtEnaCWuQ _f-FLdpJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9i_9JJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9y3kJJ-Ee65WYtEnaCWuQ" name="Message">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9y3k5J-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9y3kZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9y3lJJ-Ee65WYtEnaCWuQ" name="-  Id : Integer">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.0"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9zeoJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9zeoZJ-Ee65WYtEnaCWuQ" name="-  ChatId : String">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.1"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9zeopJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9zeo5J-Ee65WYtEnaCWuQ" name="-  Content : String">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.2"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f90FsJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@conditionnalStyles.0/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f90FsZJ-Ee65WYtEnaCWuQ" name="-  MessageType">
+          <target xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3"/>
+          <semanticElements xmi:type="designModel:Attribute" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f90swJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='AttributeContainer']/@subNodeMappings[name='Attribute']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f90swZJ-Ee65WYtEnaCWuQ" name="Message">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.2"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f90sxJJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f90swpJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f91T0JJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToOne(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f91T0ZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f91T0pJ-Ee65WYtEnaCWuQ" name="+  addLinkOneToMany(assoName:String, ob:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.1"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9164JJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9164ZJ-Ee65WYtEnaCWuQ" name="+  getId()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.2"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9164pJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f91645J-Ee65WYtEnaCWuQ" name="+  setId(newValue:Integer)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.3"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f92h8JJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f92h8ZJ-Ee65WYtEnaCWuQ" name="+  getChatId()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.4"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.4"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f92h8pJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f93JAJJ-Ee65WYtEnaCWuQ" name="+  setChatId(newValue:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.5"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.5"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f93JAZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f93JApJ-Ee65WYtEnaCWuQ" name="+  getContent()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.6"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.6"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f93JA5J-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f93JBJJ-Ee65WYtEnaCWuQ" name="+  setContent(newValue:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.7"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.7"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f93wEJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f93wEZJ-Ee65WYtEnaCWuQ" name="+  getMessageType()">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.8"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.8"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f93wEpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f93wE5J-Ee65WYtEnaCWuQ" name="+  setMessageType(newValue:)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.9"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@operation.9"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f93wFJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9jnAZJ-Ee65WYtEnaCWuQ" name="EntityManager" outgoingEdges="_f-D9UJJ-Ee65WYtEnaCWuQ _f-EkYJJ-Ee65WYtEnaCWuQ _f-FLdpJ-Ee65WYtEnaCWuQ" incomingEdges="_f-Fyg5J-Ee65WYtEnaCWuQ _f-GZkJJ-Ee65WYtEnaCWuQ _f-HAo5J-Ee65WYtEnaCWuQ _f-HnsJJ-Ee65WYtEnaCWuQ _f-IOw5J-Ee65WYtEnaCWuQ _f-I10JJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.3"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.3"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9jnApJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f94XIJJ-Ee65WYtEnaCWuQ" name="EntityManager">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.3"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.3"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f94XI5J-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f94XIZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f94XJJJ-Ee65WYtEnaCWuQ" name="+  findObject(ClassName:String, condition:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f94-MJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f94-MZJ-Ee65WYtEnaCWuQ" name="+  findObjects(ClassName:String, condition:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.1"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.1"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f94-MpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f94-M5J-Ee65WYtEnaCWuQ" name="+  createObject(ClassName:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.2"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.2"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f94-NJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f95lQJJ-Ee65WYtEnaCWuQ" name="+  addObject(ClassName:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.3"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.3"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f95lQZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f95lQpJ-Ee65WYtEnaCWuQ" name="+  releaseObject(ClassName:String, ob:Class)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.4"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.4"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f95lQ5J-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f95lRJJ-Ee65WYtEnaCWuQ" name="+  findLinkedObject(assoName:String, condition:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.5"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.5"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f96MUJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f96MUZJ-Ee65WYtEnaCWuQ" name="+  findLinkedObjects(assoName:String, condition:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.6"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@operation.6"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f96MUpJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9jnBJJ-Ee65WYtEnaCWuQ" name="MedicalRobotSystem" outgoingEdges="_f-Fyg5J-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.4"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.4"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9jnBZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9kOEJJ-Ee65WYtEnaCWuQ" name="ThirdPartyServices" outgoingEdges="_f-GZkJJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.5"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.5"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9kOEZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9kOE5J-Ee65WYtEnaCWuQ" name="RegistService" outgoingEdges="_f-HAo5J-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.6"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.6"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9kOFJJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f97acJJ-Ee65WYtEnaCWuQ" name="RegistService">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.6"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.6"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f97ac5J-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f97acZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f97adJJ-Ee65WYtEnaCWuQ" name="+  regist(username:String, password:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.6/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.6/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f97adZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9kOFpJ-Ee65WYtEnaCWuQ" name="EditUserService" outgoingEdges="_f-HnsJJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.7"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.7"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9kOF5J-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f98okJJ-Ee65WYtEnaCWuQ" name="EditUserService">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.7"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.7"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f98ok5J-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f98okZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f99PoJJ-Ee65WYtEnaCWuQ" name="+  editUser(id:String, username:String, password:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.7/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.7/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f99PoZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9k1IZJ-Ee65WYtEnaCWuQ" name="LoginService" outgoingEdges="_f-IOw5J-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.8"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.8"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9k1IpJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f99PopJ-Ee65WYtEnaCWuQ" name="LoginService">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.8"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.8"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f992spJ-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f992sJJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f992s5J-Ee65WYtEnaCWuQ" name="+  login(username:String, password:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.8/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.8/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f992tJJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_f9k1JJJ-Ee65WYtEnaCWuQ" name="DeleteUserService" outgoingEdges="_f-I10JJ-Ee65WYtEnaCWuQ" childrenPresentation="VerticalStack">
+      <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.9"/>
+      <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.9"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9k1JZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9-dwJJ-Ee65WYtEnaCWuQ" name="DeleteUserService">
+        <target xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.9"/>
+        <semanticElements xmi:type="designModel:Class" href="medicalrobot.xmi#/1/@classdiagram/@class.9"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_f9-dw5J-Ee65WYtEnaCWuQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9-dwZJ-Ee65WYtEnaCWuQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" hideLabelByDefault="true" foregroundColor="194,239,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9-dxJJ-Ee65WYtEnaCWuQ" name="+  deleteUser(id:String)">
+          <target xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.9/@operation.0"/>
+          <semanticElements xmi:type="designModel:Operation" href="medicalrobot.xmi#/1/@classdiagram/@class.9/@operation.0"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_f9-dxZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" borderSize="10" borderSizeComputationExpression="10" borderColor="255,255,255" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='Class']/@subContainerMappings[name='OperationContainer']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_f9_E0JJ-Ee65WYtEnaCWuQ" name="MessageType">
+      <target xmi:type="designModel:EnumEntity" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type"/>
+      <semanticElements xmi:type="designModel:EnumEntity" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_f9_E0ZJ-Ee65WYtEnaCWuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9_r4JJ-Ee65WYtEnaCWuQ" name="USER">
+        <target xmi:type="designModel:EnumItem" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type/@enumitem.0"/>
+        <semanticElements xmi:type="designModel:EnumItem" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type/@enumitem.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_f9_r4ZJ-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']/@subNodeMappings[name='EnumItem']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']/@subNodeMappings[name='EnumItem']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_f9_r4pJ-Ee65WYtEnaCWuQ" name="BOT">
+        <target xmi:type="designModel:EnumItem" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type/@enumitem.1"/>
+        <semanticElements xmi:type="designModel:EnumItem" href="medicalrobot.xmi#/1/@classdiagram/@class.2/@attribute.3/@type/@enumitem.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_f9_r45J-Ee65WYtEnaCWuQ" showIcon="false" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']/@subNodeMappings[name='EnumItem']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='EnumEntity']/@subNodeMappings[name='EnumItem']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-BhEJJ-Ee65WYtEnaCWuQ" sourceNode="_f9hKwJJ-Ee65WYtEnaCWuQ" targetNode="_f9i_8JJ-Ee65WYtEnaCWuQ" beginLabel="ChattoUser:*" endLabel="UsertoChat:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.0/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-CIIJJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-CIIZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-CIIpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-DWQJJ-Ee65WYtEnaCWuQ" sourceNode="_f9i_8JJ-Ee65WYtEnaCWuQ" targetNode="_f9i_85J-Ee65WYtEnaCWuQ" beginLabel="MessagetoChat:*" endLabel="ChattoMessage:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.1/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-DWQZJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-DWQpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-DWQ5J-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-D9UJJ-Ee65WYtEnaCWuQ" sourceNode="_f9jnAZJ-Ee65WYtEnaCWuQ" targetNode="_f9hKwJJ-Ee65WYtEnaCWuQ" beginLabel="manager:1" endLabel="class:*">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-D9UZJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.0/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-D9UpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-D9U5J-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-EkYJJ-Ee65WYtEnaCWuQ" sourceNode="_f9jnAZJ-Ee65WYtEnaCWuQ" targetNode="_f9i_8JJ-Ee65WYtEnaCWuQ" beginLabel="manager:1" endLabel="class:*">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.1"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-FLcJJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.0/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-FLcZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-FLcpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-FLdpJ-Ee65WYtEnaCWuQ" sourceNode="_f9jnAZJ-Ee65WYtEnaCWuQ" targetNode="_f9i_85J-Ee65WYtEnaCWuQ" beginLabel="manager:1" endLabel="class:*">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.2"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.3/@reference.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-FLd5J-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.0/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-FLeJJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-FLeZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-Fyg5J-Ee65WYtEnaCWuQ" sourceNode="_f9jnBJJ-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.4/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.4/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-FyhJJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-FyhZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-FyhpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-GZkJJ-Ee65WYtEnaCWuQ" sourceNode="_f9kOEJJ-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.5/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.5/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-GZkZJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-GZkpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-GZk5J-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-HAo5J-Ee65WYtEnaCWuQ" sourceNode="_f9kOE5J-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.6/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.6/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-HApJJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-HApZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-HAppJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-HnsJJ-Ee65WYtEnaCWuQ" sourceNode="_f9kOFpJ-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.7/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.7/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-HnsZJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-HnspJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-Hns5J-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-IOw5J-Ee65WYtEnaCWuQ" sourceNode="_f9k1IZJ-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.8/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.8/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-IOxJJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-IOxZJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-IOxpJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_f-I10JJ-Ee65WYtEnaCWuQ" sourceNode="_f9k1JJJ-Ee65WYtEnaCWuQ" targetNode="_f9jnAZJ-Ee65WYtEnaCWuQ" beginLabel="service:1" endLabel="manager:1">
+      <target xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.9/@reference.0"/>
+      <semanticElements xmi:type="designModel:Association" href="medicalrobot.xmi#/1/@classdiagram/@class.9/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_f-I10ZJ-Ee65WYtEnaCWuQ" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_f-I10pJ-Ee65WYtEnaCWuQ" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_f-I105J-Ee65WYtEnaCWuQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='Association']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_f9Ee0JJ-Ee65WYtEnaCWuQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/designmodel.classdiagram.design/description/classdiagram.odesign#//@ownedViewpoints[name='ClassDiagram']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="designModel:ClassDiagram" href="medicalrobot.xmi#/1/@classdiagram"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

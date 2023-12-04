@@ -15,3 +15,12 @@
 - ![Alt text](image-1.png)
 - ![Alt text](image-2.png)
 - ![Alt text](image-3.png)
+
+# SR-LAB03
+
+
+
+- ![Alt text](image-4.png)
+- ![Alt text](image-5.png)
+## 生成微服务或Design Model的时候卡在
+- ![Alt text](image-6.png)

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:msModel="http://www.rm2pt.com/msModel/MsModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_3P0egJJ8Ee6DaOubJeRWDA" selectedViews="_3RaZ8JJ8Ee6DaOubJeRWDA _3Sc7wJJ8Ee6DaOubJeRWDA _3SeJ4JJ8Ee6DaOubJeRWDA _3ShNMJJ8Ee6DaOubJeRWDA" version="14.5.1.202106111100">
+    <semanticResources>MedicalRobot.msModel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3RaZ8JJ8Ee6DaOubJeRWDA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3RhusJJ8Ee6DaOubJeRWDA" name="Conceptual Class Diagram" repPath="#_3Rf5gJJ8Ee6DaOubJeRWDA" changeId="cc13b513-0cff-4485-8368-1c72b329df8a">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3SD6MJJ8Ee6DaOubJeRWDA" name="Conceptual Class Diagram" repPath="#_3SDTIJJ8Ee6DaOubJeRWDA" changeId="c2091ff1-91b6-4bbd-84cf-f75aa291360c">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+        <target xmi:type="msModel:DomainModel" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3S3ygJJ8Ee6DaOubJeRWDA" name="MicroServiceModel" repPath="#_3S3LcJJ8Ee6DaOubJeRWDA" changeId="f63431f2-70fb-4066-a7a9-d32fd6575e8e">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+        <target xmi:type="msModel:MicroServiceModel" href="MedicalRobot.msModel#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3Sc7wJJ8Ee6DaOubJeRWDA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/dsl.design/description/dsl.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3SeJ4JJ8Ee6DaOubJeRWDA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/dsl/dsl.design/description/dsl.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3ShNMJJ8Ee6DaOubJeRWDA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/SR-LAB02/org.rm2pt.chatbot.design/description/chatbot.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_3Rf5gJJ8Ee6DaOubJeRWDA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3RrfsJJ8Ee6DaOubJeRWDA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3RrfsZJ8Ee6DaOubJeRWDA" type="Sirius" element="_3Rf5gJJ8Ee6DaOubJeRWDA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_3R9MgJJ8Ee6DaOubJeRWDA" type="2003" element="_3RzbgJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3R_owJJ8Ee6DaOubJeRWDA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3SAP0JJ8Ee6DaOubJeRWDA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_3SA24JJ8Ee6DaOubJeRWDA" type="3010" element="_3R3s8JJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SA24ZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SA24pJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3SA245J8Ee6DaOubJeRWDA" type="3010" element="_3R4UAJJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SA25JJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SA25ZJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3SA25pJ8Ee6DaOubJeRWDA" type="3010" element="_3R4UApJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SA255J8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SA26JJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3SBd8JJ8Ee6DaOubJeRWDA" type="3010" element="_3R4UBJJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SBd8ZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SBd8pJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3SAP0ZJ8Ee6DaOubJeRWDA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3SAP0pJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3R9MgZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3R9MgpJ8Ee6DaOubJeRWDA" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3RrfspJ8Ee6DaOubJeRWDA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3R5iIJJ8Ee6DaOubJeRWDA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3R6JMJJ8Ee6DaOubJeRWDA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3RzbgJJ8Ee6DaOubJeRWDA" width="10">
+      <target xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3R0CkJJ8Ee6DaOubJeRWDA" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3R3s8JJ8Ee6DaOubJeRWDA" name="Id : Integer">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3R3s8ZJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3R4UAJJ8Ee6DaOubJeRWDA" name="ChatId : String">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3R4UAZJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3R4UApJ8Ee6DaOubJeRWDA" name="Content : String">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3R4UA5J8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3R4UBJJ8Ee6DaOubJeRWDA" name="MessageType : Integer">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0/@entity.0/@attributes.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3R47EJJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3RggkJJ8Ee6DaOubJeRWDA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="MedicalRobot.msModel#//@microservice.0/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3SDTIJJ8Ee6DaOubJeRWDA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3SD6MpJ8Ee6DaOubJeRWDA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3SD6M5J8Ee6DaOubJeRWDA" type="Sirius" element="_3SDTIJJ8Ee6DaOubJeRWDA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_3SKn4JJ8Ee6DaOubJeRWDA" type="2003" element="_3SEhQJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3SKn45J8Ee6DaOubJeRWDA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3SKn5JJ8Ee6DaOubJeRWDA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_3SLO9JJ8Ee6DaOubJeRWDA" type="3010" element="_3SFvYZJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SLO9ZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SLO9pJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3SLO95J8Ee6DaOubJeRWDA" type="3010" element="_3SGWcJJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SLO-JJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SLO-ZJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3SLO-pJ8Ee6DaOubJeRWDA" type="3010" element="_3SGWcpJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SLO-5J8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SLO_JJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3SKn5ZJ8Ee6DaOubJeRWDA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3SKn5pJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3SKn4ZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SKn4pJ8Ee6DaOubJeRWDA" width="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3SKn55J8Ee6DaOubJeRWDA" type="2003" element="_3SFIUpJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3SLO8JJ8Ee6DaOubJeRWDA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_3SLO8ZJ8Ee6DaOubJeRWDA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_3SL2AJJ8Ee6DaOubJeRWDA" type="3010" element="_3SG9gJJ8Ee6DaOubJeRWDA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3SL2AZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3SL2ApJ8Ee6DaOubJeRWDA"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3SLO8pJ8Ee6DaOubJeRWDA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3SLO85J8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3SKn6JJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SKn6ZJ8Ee6DaOubJeRWDA" width="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3SD6NJJ8Ee6DaOubJeRWDA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_3SMdEJJ8Ee6DaOubJeRWDA" type="4001" element="_3SHkkJJ8Ee6DaOubJeRWDA" source="_3SKn4JJ8Ee6DaOubJeRWDA" target="_3SKn55J8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3SNEIJJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SNEIZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3SNrMJJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SNrMZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3SOSQJJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3SOSQZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3SMdEZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3SMdEpJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3SMdE5J8Ee6DaOubJeRWDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3STKwJJ8Ee6DaOubJeRWDA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3STKwZJ8Ee6DaOubJeRWDA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3STKwpJ8Ee6DaOubJeRWDA" type="4001" element="_3SIysJJ8Ee6DaOubJeRWDA" source="_3SKn55J8Ee6DaOubJeRWDA" target="_3SKn4JJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3STx0JJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3STx0ZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3STx0pJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3STx05J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3STx1JJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3STx1ZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3STKw5J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3STKxJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3STKxZJ8Ee6DaOubJeRWDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SUY4JJ8Ee6DaOubJeRWDA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3SUY4ZJ8Ee6DaOubJeRWDA" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3SKA0JJ8Ee6DaOubJeRWDA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3SKA0ZJ8Ee6DaOubJeRWDA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3SEhQJJ8Ee6DaOubJeRWDA" name="User" outgoingEdges="_3SHkkJJ8Ee6DaOubJeRWDA" incomingEdges="_3SIysJJ8Ee6DaOubJeRWDA" width="10">
+      <target xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0"/>
+      <semanticElements xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3SFIUJJ8Ee6DaOubJeRWDA" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3SFvYZJ8Ee6DaOubJeRWDA" name="Id : Integer">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3SFvYpJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3SGWcJJ8Ee6DaOubJeRWDA" name="Name : String">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.1"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3SGWcZJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3SGWcpJ8Ee6DaOubJeRWDA" name="Password : String">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.2"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@attributes.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3SGWc5J8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3SFIUpJ8Ee6DaOubJeRWDA" name="Chat" outgoingEdges="_3SIysJJ8Ee6DaOubJeRWDA" incomingEdges="_3SHkkJJ8Ee6DaOubJeRWDA" width="10">
+      <target xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1"/>
+      <semanticElements xmi:type="msModel:Entity" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3SFIU5J8Ee6DaOubJeRWDA" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3SG9gJJ8Ee6DaOubJeRWDA" name="Id : Integer">
+        <target xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1/@attributes.0"/>
+        <semanticElements xmi:type="msModel:Attribute" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3SG9gZJ8Ee6DaOubJeRWDA" showIcon="false" labelAlignment="LEFT" labelPosition="node" height="20">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@containerMappings[name='Entity']/@subNodeMappings[name='EntityAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3SHkkJJ8Ee6DaOubJeRWDA" sourceNode="_3SEhQJJ8Ee6DaOubJeRWDA" targetNode="_3SFIUpJ8Ee6DaOubJeRWDA" endLabel="UsertoChat:1">
+      <target xmi:type="msModel:Reference" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@reference.0"/>
+      <semanticElements xmi:type="msModel:Reference" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.0/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3SILoJJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@edgeMappings[name='EntityReference']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_3SILoZJ8Ee6DaOubJeRWDA" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_3SILopJ8Ee6DaOubJeRWDA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@edgeMappings[name='EntityReference']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3SIysJJ8Ee6DaOubJeRWDA" sourceNode="_3SFIUpJ8Ee6DaOubJeRWDA" targetNode="_3SEhQJJ8Ee6DaOubJeRWDA" endLabel="ChattoUser:1">
+      <target xmi:type="msModel:Reference" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1/@reference.0"/>
+      <semanticElements xmi:type="msModel:Reference" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0/@entity.1/@reference.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3SJZwJJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@edgeMappings[name='EntityReference']/@conditionnalStyles.1/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_3SJZwZJ8Ee6DaOubJeRWDA" showIcon="false"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_3SJZwpJ8Ee6DaOubJeRWDA" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer/@edgeMappings[name='EntityReference']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3SDTIZJ8Ee6DaOubJeRWDA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Conceptual%20Class%20Diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:DomainModel" href="MedicalRobot.msModel#//@microservice.1/@domainmodel.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3S3LcJJ8Ee6DaOubJeRWDA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3S3ygpJ8Ee6DaOubJeRWDA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_3S3yg5J8Ee6DaOubJeRWDA" type="Sirius" element="_3S3LcJJ8Ee6DaOubJeRWDA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_3TNJsJJ8Ee6DaOubJeRWDA" type="2001" element="_3S8rAJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TNwwJJ8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TNwwZJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WrUcJJ8Ee6DaOubJeRWDA" type="3004" element="_3S9SEJJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WrUcZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WrUcpJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TNJsZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TNJspJ8Ee6DaOubJeRWDA" x="2" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TQ0EJJ8Ee6DaOubJeRWDA" type="2001" element="_3S9SEpJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TQ0E5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TQ0FJJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WrUc5J8Ee6DaOubJeRWDA" type="3004" element="_3S9SE5J8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WrUdJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WrUdZJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TQ0EZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TQ0EpJ8Ee6DaOubJeRWDA" x="160" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TRbIJJ8Ee6DaOubJeRWDA" type="2001" element="_3S9SFZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TRbI5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TRbJJJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WrUdpJ8Ee6DaOubJeRWDA" type="3004" element="_3S95IJJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WrUd5J8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WrUeJJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TRbIZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TRbIpJ8Ee6DaOubJeRWDA" x="80" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TSCMJJ8Ee6DaOubJeRWDA" type="2001" element="_3S95IpJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TSCM5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TSCNJJ8Ee6DaOubJeRWDA" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wr7gJJ8Ee6DaOubJeRWDA" type="3004" element="_3S95I5J8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3Wr7gZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wr7gpJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TSCMZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TSCMpJ8Ee6DaOubJeRWDA" x="392" y="-2" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TSpQJJ8Ee6DaOubJeRWDA" type="2001" element="_3S95JZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TSpQ5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TSpRJJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wr7g5J8Ee6DaOubJeRWDA" type="3004" element="_3S95JpJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3Wr7hJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wr7hZJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TSpQZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TSpQpJ8Ee6DaOubJeRWDA" x="832" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TSpRZJ8Ee6DaOubJeRWDA" type="2001" element="_3S95KJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TTQUJJ8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TTQUZJ8Ee6DaOubJeRWDA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wr7hpJ8Ee6DaOubJeRWDA" type="3004" element="_3S95KZJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3Wr7h5J8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wr7iJJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TSpRpJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TSpR5J8Ee6DaOubJeRWDA" x="672" y="-2" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TTQUpJ8Ee6DaOubJeRWDA" type="2001" element="_3S-gMZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TTQVZJ8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TTQVpJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wr7iZJ8Ee6DaOubJeRWDA" type="3004" element="_3S-gMpJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3Wr7ipJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wr7i5J8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TTQU5J8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TTQVJJ8Ee6DaOubJeRWDA" x="500" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TT3YJJ8Ee6DaOubJeRWDA" type="2001" element="_3S-gNJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TT3Y5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TT3ZJJ8Ee6DaOubJeRWDA" x="21" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WsikJJ8Ee6DaOubJeRWDA" type="3004" element="_3S-gNZJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WsikZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WsikpJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TT3YZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TT3YpJ8Ee6DaOubJeRWDA" x="752" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3TUecJJ8Ee6DaOubJeRWDA" type="2001" element="_3S_HQJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3TUec5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3TUedJJ8Ee6DaOubJeRWDA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wsik5J8Ee6DaOubJeRWDA" type="3005" element="_3TBjgJJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WsilJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WsilZJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3TUecZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TUecpJ8Ee6DaOubJeRWDA" x="240" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3WixkJJ8Ee6DaOubJeRWDA" type="2001" element="_3TCKkZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Wixk5J8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3WixlJJ8Ee6DaOubJeRWDA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WtJoJJ8Ee6DaOubJeRWDA" type="3005" element="_3TCKkpJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WtJoZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WtJopJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3WixkZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WixkpJ8Ee6DaOubJeRWDA" x="328" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3Wl04JJ8Ee6DaOubJeRWDA" type="2001" element="_3TCKlJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Wmb8JJ8Ee6DaOubJeRWDA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3Wmb8ZJ8Ee6DaOubJeRWDA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WtJo5J8Ee6DaOubJeRWDA" type="3005" element="_3TCKlZJ8Ee6DaOubJeRWDA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3WtJpJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WtJpZJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3Wl04ZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wl04pJ8Ee6DaOubJeRWDA" x="580" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3WqGUJJ8Ee6DaOubJeRWDA" type="2002" element="_3TCxoZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WqGU5J8Ee6DaOubJeRWDA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_3WqtYJJ8Ee6DaOubJeRWDA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3WqtYZJ8Ee6DaOubJeRWDA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3WqtYpJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3WqGUZJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WqGUpJ8Ee6DaOubJeRWDA" x="96" y="88"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3WqtY5J8Ee6DaOubJeRWDA" type="2002" element="_3TCxpJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WqtZpJ8Ee6DaOubJeRWDA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_3WqtZ5J8Ee6DaOubJeRWDA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_3WqtaJJ8Ee6DaOubJeRWDA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_3WqtaZJ8Ee6DaOubJeRWDA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3WqtZJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WqtZZJ8Ee6DaOubJeRWDA" x="560" y="88"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_3S3yhJJ8Ee6DaOubJeRWDA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_3WtwsJJ8Ee6DaOubJeRWDA" type="4001" element="_3TIRMJJ8Ee6DaOubJeRWDA" source="_3WqGUJJ8Ee6DaOubJeRWDA" target="_3TNJsJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WtwtJJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WtwtZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WtwtpJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wtwt5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WtwuJJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WtwuZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WtwsZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WtwspJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Wtws5J8Ee6DaOubJeRWDA" points="[-1, 0, 160, 60]$[-161, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WtwupJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Wtwu5J8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3WuXwJJ8Ee6DaOubJeRWDA" type="4001" element="_3TI4QJJ8Ee6DaOubJeRWDA" source="_3WqGUJJ8Ee6DaOubJeRWDA" target="_3TQ0EJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WuXxJJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WuXxZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WuXxpJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WuXx5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WuXyJJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WuXyZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WuXwZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WuXwpJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3WuXw5J8Ee6DaOubJeRWDA" points="[-1, 0, 0, 60]$[-1, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WuXypJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WuXy5J8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3Wu-0JJ8Ee6DaOubJeRWDA" type="4001" element="_3TI4RZJ8Ee6DaOubJeRWDA" source="_3WqGUJJ8Ee6DaOubJeRWDA" target="_3TRbIJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Wu-1JJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wu-1ZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wu-1pJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wu-15J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wu-2JJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wu-2ZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3Wu-0ZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3Wu-0pJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Wu-05J8Ee6DaOubJeRWDA" points="[-1, 0, 80, 60]$[-81, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Wu-2pJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Wu-25J8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3Wu-3JJ8Ee6DaOubJeRWDA" type="4001" element="_3TI4SpJ8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3TSCMJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Wu-4JJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wu-4ZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wvl4JJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wvl4ZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wvl4pJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wvl45J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3Wu-3ZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3Wu-3pJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Wu-35J8Ee6DaOubJeRWDA" points="[-1, 0, 205, 60]$[-206, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Wvl5JJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Wvl5ZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3Wvl5pJ8Ee6DaOubJeRWDA" type="4001" element="_3TI4T5J8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3TSpQJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Wvl6pJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wvl65J8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wvl7JJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wvl7ZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Wvl7pJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Wvl75J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3Wvl55J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3Wvl6JJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Wvl6ZJ8Ee6DaOubJeRWDA" points="[-1, 0, -205, 60]$[204, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WwM8JJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WwM8ZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3WwM8pJ8Ee6DaOubJeRWDA" type="4001" element="_3TJfUpJ8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3TSpRZJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WwM9pJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WwM95J8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WwM-JJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WwM-ZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WwM-pJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WwM-5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WwM85J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WwM9JJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3WwM9ZJ8Ee6DaOubJeRWDA" points="[-1, 0, -45, 60]$[44, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Ww0AJJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Ww0AZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3Ww0ApJ8Ee6DaOubJeRWDA" type="4001" element="_3TJfV5J8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3TTQUpJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3Ww0BpJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Ww0B5J8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Ww0CJJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Ww0CZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3Ww0CpJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Ww0C5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3Ww0A5J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3Ww0BJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Ww0BZJ8Ee6DaOubJeRWDA" points="[-1, 0, 125, 60]$[-126, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Ww0DJJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3Ww0DZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3Ww0DpJ8Ee6DaOubJeRWDA" type="4001" element="_3TJfXJJ8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3TT3YJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WxbEJJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbEZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WxbEpJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbE5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WxbFJJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbFZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3Ww0D5J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3Ww0EJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3Ww0EZJ8Ee6DaOubJeRWDA" points="[-1, 0, -125, 60]$[124, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WxbFpJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WxbF5J8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3WxbGJJ8Ee6DaOubJeRWDA" type="4001" element="_3TKtcJJ8Ee6DaOubJeRWDA" source="_3WqGUJJ8Ee6DaOubJeRWDA" target="_3TUecJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WxbHJJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbHZJ8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WxbHpJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbH5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WxbIJJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WxbIZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WxbGZJ8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WxbGpJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3WxbG5J8Ee6DaOubJeRWDA" points="[-1, 0, -85, 60]$[84, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WyCIJJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WyCIZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3WyCIpJ8Ee6DaOubJeRWDA" type="4001" element="_3TLUgJJ8Ee6DaOubJeRWDA" source="_3WqGUJJ8Ee6DaOubJeRWDA" target="_3WixkJJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WyCJpJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WyCJ5J8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WyCKJJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WyCKZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WyCKpJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WyCK5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WyCI5J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WyCJJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3WyCJZJ8Ee6DaOubJeRWDA" points="[-1, 0, -175, 60]$[174, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WypMJJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WypMZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3WypMpJ8Ee6DaOubJeRWDA" type="4001" element="_3TLUhZJ8Ee6DaOubJeRWDA" source="_3WqtY5J8Ee6DaOubJeRWDA" target="_3Wl04JJ8Ee6DaOubJeRWDA">
+          <children xmi:type="notation:Node" xmi:id="_3WypNpJ8Ee6DaOubJeRWDA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WypN5J8Ee6DaOubJeRWDA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WypOJJ8Ee6DaOubJeRWDA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WypOZJ8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3WypOpJ8Ee6DaOubJeRWDA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3WypO5J8Ee6DaOubJeRWDA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3WypM5J8Ee6DaOubJeRWDA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3WypNJJ8Ee6DaOubJeRWDA" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3WypNZJ8Ee6DaOubJeRWDA" points="[-1, 0, 40, 60]$[-41, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WzQQJJ8Ee6DaOubJeRWDA" id="(0.5067567567567568,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3WzQQZJ8Ee6DaOubJeRWDA" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3TLUipJ8Ee6DaOubJeRWDA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3TLUi5J8Ee6DaOubJeRWDA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S8rAJJ8Ee6DaOubJeRWDA" name="editUser" incomingEdges="_3TIRMJJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.0"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S9SEJJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S9SEpJ8Ee6DaOubJeRWDA" name="deleteUser" incomingEdges="_3TI4QJJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.1"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.1"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S9SE5J8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S9SFZJ8Ee6DaOubJeRWDA" name="manageMessage" incomingEdges="_3TI4RZJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.2"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.0/@interface.2"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S95IJJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S95IpJ8Ee6DaOubJeRWDA" name="login" incomingEdges="_3TI4SpJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.0"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.0"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S95I5J8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S95JZJ8Ee6DaOubJeRWDA" name="authorize" incomingEdges="_3TI4T5J8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.1"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.1"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S95JpJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S95KJJ8Ee6DaOubJeRWDA" name="regist" incomingEdges="_3TJfUpJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.2"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.2"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S95KZJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S-gMZJ8Ee6DaOubJeRWDA" name="manageChat" incomingEdges="_3TJfV5J8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.3"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.3"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S-gMpJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S-gNJJ8Ee6DaOubJeRWDA" name="manageUser" incomingEdges="_3TJfXJJ8Ee6DaOubJeRWDA" width="2" height="2">
+      <target xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.4"/>
+      <semanticElements xmi:type="msModel:Provided" href="MedicalRobot.msModel#//@microservice.1/@interface.4"/>
+      <ownedStyle xmi:type="diagram:BundledImage" uid="_3S-gNZJ8Ee6DaOubJeRWDA" showIcon="false" shape="dot">
+        <description xmi:type="style:BundledImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='ProvidedInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3S_HQJJ8Ee6DaOubJeRWDA" incomingEdges="_3TKtcJJ8Ee6DaOubJeRWDA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.0/@interface.3"/>
+      <semanticElements xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.0/@interface.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_3TBjgJJ8Ee6DaOubJeRWDA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3TCKkZJ8Ee6DaOubJeRWDA" incomingEdges="_3TLUgJJ8Ee6DaOubJeRWDA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.0/@interface.4"/>
+      <semanticElements xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.0/@interface.4"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_3TCKkpJ8Ee6DaOubJeRWDA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3TCKlJJ8Ee6DaOubJeRWDA" incomingEdges="_3TLUhZJ8Ee6DaOubJeRWDA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.1/@interface.5"/>
+      <semanticElements xmi:type="msModel:Required" href="MedicalRobot.msModel#//@microservice.1/@interface.5"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_3TCKlZJ8Ee6DaOubJeRWDA" labelSize="12" showIcon="false" labelPosition="node" workspacePath="/com.rm2pt.msModel.design/images/required-top.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@nodeMappings[name='RequiredInterface']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_3TCxoZJ8Ee6DaOubJeRWDA" name="AdminService" outgoingEdges="_3TIRMJJ8Ee6DaOubJeRWDA _3TI4QJJ8Ee6DaOubJeRWDA _3TI4RZJ8Ee6DaOubJeRWDA _3TKtcJJ8Ee6DaOubJeRWDA _3TLUgJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <semanticElements xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3TCxopJ8Ee6DaOubJeRWDA" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_3TCxpJJ8Ee6DaOubJeRWDA" name="PatientService" outgoingEdges="_3TI4SpJ8Ee6DaOubJeRWDA _3TI4T5J8Ee6DaOubJeRWDA _3TJfUpJ8Ee6DaOubJeRWDA _3TJfV5J8Ee6DaOubJeRWDA _3TJfXJJ8Ee6DaOubJeRWDA _3TLUhZJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <semanticElements xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3TCxpZJ8Ee6DaOubJeRWDA" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="39,76,114" backgroundStyle="Liquid" backgroundColor="194,239,255" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@containerMappings[name='MicroService']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TIRMJJ8Ee6DaOubJeRWDA" sourceNode="_3TCxoZJ8Ee6DaOubJeRWDA" targetNode="_3S8rAJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TIRMZJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TIRMpJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TI4QJJ8Ee6DaOubJeRWDA" sourceNode="_3TCxoZJ8Ee6DaOubJeRWDA" targetNode="_3S9SEpJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TI4QZJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TI4QpJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TI4RZJ8Ee6DaOubJeRWDA" sourceNode="_3TCxoZJ8Ee6DaOubJeRWDA" targetNode="_3S9SFZJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TI4RpJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TI4R5J8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TI4SpJ8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3S95IpJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TI4S5J8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TI4TJJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TI4T5J8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3S95JZJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TI4UJJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TI4UZJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TJfUpJ8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3S95KJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TJfU5J8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TJfVJJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TJfV5J8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3S-gMZJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TJfWJJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TJfWZJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TJfXJJ8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3S-gNJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TJfXZJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TJfXpJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceProvide']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TKtcJJ8Ee6DaOubJeRWDA" sourceNode="_3TCxoZJ8Ee6DaOubJeRWDA" targetNode="_3S_HQJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TKtcZJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TKtcpJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TLUgJJ8Ee6DaOubJeRWDA" sourceNode="_3TCxoZJ8Ee6DaOubJeRWDA" targetNode="_3TCKkZJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TLUgZJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TLUgpJ8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3TLUhZJ8Ee6DaOubJeRWDA" sourceNode="_3TCxpJJ8Ee6DaOubJeRWDA" targetNode="_3TCKlJJ8Ee6DaOubJeRWDA">
+      <target xmi:type="msModel:MicroService" href="MedicalRobot.msModel#//@microservice.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3TLUhpJ8Ee6DaOubJeRWDA" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3TLUh5J8Ee6DaOubJeRWDA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer/@edgeMappings[name='ServiceRequire']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3S3LcZJ8Ee6DaOubJeRWDA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.rm2pt.msModel.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Microservice%20diagram']/@defaultLayer"/>
+    <target xmi:type="msModel:MicroServiceModel" href="MedicalRobot.msModel#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

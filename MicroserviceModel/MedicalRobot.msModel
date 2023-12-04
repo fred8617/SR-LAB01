@@ -1,0 +1,97 @@
+MicroServiceModel MedicalRobot {
+	MicroService AdminService {
+		ProvidedInterface editUser{
+			[Operation]
+			editUser
+			CallChain editUser {
+				service PatientService : PatientService {
+					Message 1 to PatientService {
+						operation manageUser
+					}
+				}
+				service PatientService : PatientService {
+					Message 2 {
+						operation manageUser
+					}
+				}
+			}
+		}
+		ProvidedInterface deleteUser{
+			[Operation]
+			deleteUser
+			CallChain deleteUser {
+				service PatientService : PatientService {
+					Message 1 to PatientService {
+						operation manageUser
+					}
+				}
+				service PatientService : PatientService {
+					Message 2 {
+						operation manageUser
+					}
+				}
+			}
+		}
+		ProvidedInterface manageMessage{
+			[Operation]
+			createMessage
+			queryMessage
+			updateMessage
+			modifyMessage
+		}
+		RequiredInterface manageChat
+		RequiredInterface manageUser
+		DomainModel AdminService {
+			 Entity Message {
+				Id : Integer
+				ChatId : String
+				Content : String
+				MessageType : Integer
+				[Refer]
+			}
+		}
+	}
+	MicroService PatientService {
+		ProvidedInterface login{
+			[Operation]
+			login
+		}
+		ProvidedInterface authorize{
+			[Operation]
+			authorize
+		}
+		ProvidedInterface regist{
+			[Operation]
+			regist
+		}
+		ProvidedInterface manageChat{
+			[Operation]
+			createChat
+			queryChat
+			updateChat
+			modifyChat
+		}
+		ProvidedInterface manageUser{
+			[Operation]
+			createUser
+			queryUser
+			updateUser
+			modifyUser
+		}
+		RequiredInterface manageMessage
+		DomainModel PatientService {
+			 Entity User {
+				Id : Integer
+				Name : String
+				Password : String
+				[Refer]
+				UsertoChat : Chat  Association
+			}
+			 Entity Chat {
+				Id : Integer
+				[Refer]
+				ChattoUser : User  Association
+			}
+		}
+	}
+}
